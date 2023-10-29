@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className=" grid grid-cols-2">
-      <div className="col-span-1 flex justify-center items-center ">
+    <main className="flex flex-col h-screen md:flex-row">
+      <div className=" h-full w-full flex flex-row justify-center items-center   md:w-2/4 ">
         <div>
-          <form className="font-Manrope flex flex-col  w-[362px] h-4985px]  gap-[34px]  ">
-            <div className="  gap-[10px]  ">
+          <form className="font-Manrope flex flex-col gap-[34px]  ">
+            <div className="flex flex-col items-center md:items-start gap-[10px]  ">
               <p className="  text-[37px] font-bold not-italic leading-[50.54px] text-[#11142D]">
                 Welcome back
               </p>
@@ -38,12 +38,15 @@ export default function Home() {
                   placeholder="**********"
                 />
               </div>
-              <div className="flex flex-none font-Manrope font-medium text-sm leading-[22px] items-center ">
-                <input
-                  type="checkbox"
-                  className="w-[16px] h-[16px] rounded-[4px] border mr-[6px]"
-                ></input>
-                <p className=" mr-[83px]">Remember for 30 days</p>
+              <div className="flex font-Manrope font-medium text-sm leading-[22px] items-center justify-between ">
+                <div className=" flex flex-row items-center">
+                  <input
+                    type="checkbox"
+                    className="w-[16px] h-[16px] rounded-[4px] border mr-[6px] hidden md:flex"
+                  ></input>
+                  <p className="  hidden md:flex">Remember for 30 days</p>
+                </div>
+
                 <p className="text-[#475BE8]">Forgot Password</p>
               </div>
             </div>
@@ -81,8 +84,8 @@ export default function Home() {
           </form>
         </div>
       </div>
-      <div className="">
-        <img src="picture.png" className="h-screen w-full"></img>
+      <div className="w-2/4 hidden md:flex">
+        <img src="picture.png" className="h-screen w-full object-cover"></img>
       </div>
     </main>
   );
