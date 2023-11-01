@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily:{
-        Manrope: ["Manrope","san-serif"]
+        Manrope: ["Manrope","san-serif"],
+        Inter:["Inter","san-serif"]
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
