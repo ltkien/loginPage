@@ -12,7 +12,7 @@ export default function Test2() {
               <a className="font-normal text-[12px] leading-[18px] text-[#777E90] ">
                 Don’t have an account?
               </a>
-              <a className=" font-medium text-[12px] leading-[14.52px] text-[#3B71FE]">
+              <a className=" font-medium text-[12px] leading-[14.52px] text-royal-blue">
                 {" "}
                 Sign up
               </a>
