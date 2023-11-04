@@ -1,4 +1,8 @@
 import Image from "next/image";
+import EyeSVG from "./EyeSVG";
+import FacebookSVG from "./FacebookSVG";
+import GoogleSVG from "./GoogleSVG";
+import TwitterSVG from "./TwitterSVG";
 export default function Test2() {
   return (
     <main className="flex flex-col h-screen justify-center items-center ">
@@ -24,13 +28,7 @@ export default function Test2() {
               type="button"
             >
               <div className="flex justify-center items-center">
-                <Image
-                  src="./fb.svg"
-                  width={15.83}
-                  height={15.83}
-                  alt="Picture of the author"
-                  className="md:w-[24px] md:h-[24px]"
-                />
+                <FacebookSVG className="md:w-[24px] md:h-[24px]" />
               </div>
             </button>
             <button
@@ -38,13 +36,7 @@ export default function Test2() {
               type="button"
             >
               <div className="flex justify-center items-center ">
-                <Image
-                  src="./ggIcon.svg"
-                  width={15.83}
-                  height={15.83}
-                  alt="Picture of the author"
-                  className="md:w-[24px] md:h-[24px]"
-                />
+                <GoogleSVG className="md:w-[24px] md:h-[24px]" />
               </div>
             </button>
             <button
@@ -52,13 +44,7 @@ export default function Test2() {
               type="button"
             >
               <div className="flex justify-center items-center ">
-                <Image
-                  src="./twitter.svg"
-                  width={15.83}
-                  height={15.83}
-                  alt="Picture of the author"
-                  className="md:w-[24px] md:h-[24px]"
-                />
+                <TwitterSVG className="md:w-[24px] md:h-[24px]" />
               </div>
             </button>
           </div>
@@ -101,13 +87,7 @@ export default function Test2() {
                 md:h-[48px] md:rounded-[6px] md:text-[16px] md:leading-[24px] md:px-[20px] "
                 placeholder="Password"
               ></input>
-              <Image
-                src="./eye.svg"
-                width={15.83}
-                height={15.83}
-                alt="Picture of the author"
-                className="absolute right-[3%] md:w-[24px] md:h-[24px]"
-              />
+              <EyeSVG className="absolute right-[3%] md:w-[24px] md:h-[24px]" />
             </div>
           </div>
           <div className="flex items-center justify-between ">
