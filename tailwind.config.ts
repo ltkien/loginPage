@@ -27,6 +27,7 @@ const config: Config = {
         'silver-chalice':'#B1B5C3',
         'royal-blue':'#475BE8',
         'dodger-blue-0.2':'rgba(59, 113, 254, 0.2) ',
+        'white': '#FCFCFC'
       },
     },
   },
