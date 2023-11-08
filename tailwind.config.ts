@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       fontFamily:{
         Manrope: ["Manrope","san-serif"],
-        Inter:["Inter","san-serif"]
+        Inter:["Inter","san-serif"],
+        Roboto:["Roboto","san-serif"]
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -27,7 +28,8 @@ const config: Config = {
         'silver-chalice':'#B1B5C3',
         'royal-blue':'#475BE8',
         'dodger-blue-0.2':'rgba(59, 113, 254, 0.2) ',
-        'white': '#FCFCFC'
+        'white': '#FCFCFC',
+        'bright-blue': '#316BFF'
       },
     },
   },
